@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "clairaut.misc",
+  "name": "Misc",
+  "version": "1.0.0",
+  "author": "clairaut",
+  "description": "Small one-off bar widgets, selected per entry with mode",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Misc",
+    "description": "Small one-off bar widgets. Set mode to pick one, currently: divider.",
+    "category": "Layout",
+    "defaultSection": "left",
+    "allowMultiple": true
+  }
+}
