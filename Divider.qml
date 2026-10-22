@@ -1,5 +1,5 @@
 import QtQuick
-import qs.Commons
+import qs.Commons as Commons
 import qs.Ui
 
 BarWidget {
@@ -19,6 +19,6 @@ BarWidget {
     anchors.centerIn: parent
     width: root.vertical ? Math.round(root.barSize * root.extent) : 1
     height: root.vertical ? 1 : Math.round(root.barSize * root.extent)
-    color: Util.alpha(root.bar ? root.bar.barForeground : Color.bar.text, root.opacity_)
+    color: Commons.Util.alpha(root.bar ? root.bar.barForeground : Commons.Color.bar.text, root.opacity_)
   }
 }
